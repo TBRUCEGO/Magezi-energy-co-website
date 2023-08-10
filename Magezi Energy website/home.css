@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #04545a;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+/* Hero section styles */
+.hero {
+  background-image: url("image3.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.welcome-note h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:orangered;
+}
+
+.welcome-note p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: gold;
+}
+
+/* Content section styles */
+.content {
+  background-color: #04545a;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.background-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: orangered;
+}
+
+.background-section p {
+  font-size: 18px;
+  color:gold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #04545a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form input[type="submit"] {
+padding: 8px 16px;
+}
+ 
+ 
+ /*submit button*/
+ .contact-form input[type="submit"]:hover{
+  background-color: orange;
+  color:#fff;
+ }
+
+
+ /*header button*/
+ nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* Hover styles for navigation links */
+nav ul li a:hover {
+  background-color: Orange;
+}
