@@ -2,7 +2,11 @@
 As a member of "Magezi energy company" advertising team, I realised we need to build a website 
 that would educate and empower individuals and businesses to embrace clean energy.
 The website is to enable our customers explore our different energy solutions,their prices and other related information about our business.
+
+This was used for education purpose as a small website project for my web designing program.
        
 Kind Regards, 
 TWINOKWESIGA BRUCE.
+
+
           
